@@ -112,7 +112,7 @@ class ViewController: UIViewController {
         textView.returnKeyType = .done
         textView.delegate = self
         
-        font = UIFont(name: "Inter UI", size: 50)!
+        font = UIFont(name: "SIGNZ STRETCH", size: 50)!
         let ctFont = CTFontCreateWithName(font.fontName as CFString, font.pointSize, nil)
         fontVariationAxes = (CTFontCopyVariationAxes(ctFont)! as Array).map { attributes in
             let attributesDict = attributes as? [String: Any] ?? [:]

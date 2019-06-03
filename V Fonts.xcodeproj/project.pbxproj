@@ -13,6 +13,7 @@
 		814A998F215D4FB900C88DF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814A998E215D4FB900C88DF9 /* Assets.xcassets */; };
 		814A9992215D4FB900C88DF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814A9990215D4FB900C88DF9 /* LaunchScreen.storyboard */; };
 		814A999B215D515200C88DF9 /* Inter-UI.var.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 814A999A215D515200C88DF9 /* Inter-UI.var.ttf */; };
+		8232FBFB22A5BB8000CD97C9 /* SIGNZSTRETCHGX.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8232FBFA22A5BB8000CD97C9 /* SIGNZSTRETCHGX.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		814A9991215D4FB900C88DF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		814A9993215D4FB900C88DF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		814A999A215D515200C88DF9 /* Inter-UI.var.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-UI.var.ttf"; sourceTree = "<group>"; };
+		8232FBFA22A5BB8000CD97C9 /* SIGNZSTRETCHGX.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SIGNZSTRETCHGX.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				814A998E215D4FB900C88DF9 /* Assets.xcassets */,
 				814A9990215D4FB900C88DF9 /* LaunchScreen.storyboard */,
 				814A9993215D4FB900C88DF9 /* Info.plist */,
+				8232FBFA22A5BB8000CD97C9 /* SIGNZSTRETCHGX.ttf */,
 			);
 			path = "V Fonts";
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 				814A9992215D4FB900C88DF9 /* LaunchScreen.storyboard in Resources */,
 				814A998F215D4FB900C88DF9 /* Assets.xcassets in Resources */,
 				814A998D215D4FB800C88DF9 /* Main.storyboard in Resources */,
+				8232FBFB22A5BB8000CD97C9 /* SIGNZSTRETCHGX.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,8 +290,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 34Z6386468;
 				INFOPLIST_FILE = "V Fonts/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,6 +300,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zelazo.V-Fonts";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,8 +310,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 34Z6386468;
 				INFOPLIST_FILE = "V Fonts/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -313,6 +320,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zelazo.V-Fonts";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
